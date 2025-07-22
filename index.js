@@ -56,4 +56,4 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-client.login('MTE2MjcxOTM4MzYxODA2MDI5OA.G6l_xT.vdimECzZT8kWZD8x-AsvcNmO3kG8EG5f-J9EsY');
+client.login('');
