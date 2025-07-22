@@ -30,7 +30,7 @@ client.on("message", async (message) => {
 async function startAutomaticMessages(channel, delay) {
   while (true) {
     const content =
-      "# ➡️ F X E E KITSUNE DM NOW - HURRY LIMITED STOCK 💝";
+      "# ➡️ F X E E RACCOON MESSAGE NOW - HURRY LIMITED STOCK 💝";
     await channel.send(content);
     await sleep(delay * 1000);
   }
@@ -56,4 +56,4 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-client.login('');
+client.login(process.env.TOKEN);
